@@ -1,8 +1,9 @@
-function About({ title, content }) { 
+function About(props) { 
     return (
     <div>
-        <h2>{title}</h2>
-        <p>{content}</p>
+            <h2>Title: {props.title}</h2>
+            <p>Content: { props.content}</p>
+        <p></p>
     </div>
     
  )
